@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # prompt user to input
 
 from tkinter import *
