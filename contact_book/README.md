@@ -3,4 +3,4 @@
 - insert, delete, list
 
 TDL
-- [] how to amend record
+- [ ] how to amend record
