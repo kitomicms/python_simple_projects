@@ -1,1 +1,1 @@
-[ ] - insert a list to download in loop
+- [ ] insert a list to download in loop
