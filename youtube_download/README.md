@@ -1,1 +1,3 @@
 - [ ] insert a list to download in loop
+- [ ] check what is outstanding from the first 100 items, given the filename is not exact as the yt.title
+- [ ] make room for the file, there is one with 19 hours length, delete the online course/transfer
