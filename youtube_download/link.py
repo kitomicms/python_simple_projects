@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 # manually extract the scroll all the way down html part, exclude those unnecessary
 def get_links():
     url = 'www.youtube.com'
-    html_document = open('geohotz.html','r')
+    html_document = open('day.html','r')
 
     soup = bs(html_document, 'html.parser')
     results = soup.find_all(id='video-title')
