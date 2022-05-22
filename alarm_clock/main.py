@@ -2,7 +2,9 @@
 
 from tkinter import *
 from datetime import datetime,timedelta
-
+from playsound import playsound
+def play():
+    playsound('rotiCanai.mp3', block=False)
 
 def alarm():
     
@@ -11,7 +13,7 @@ def alarm():
     delta = timedelta(seconds=set_time)
 
     start_time = datetime.now()
-    end_time = start_time + delta * 60
+    end_time = start_time + delta * 3
 
     # maybe add some sound
     # display label
@@ -27,8 +29,9 @@ def alarm():
     
     while True:
         if datetime.now() == end_time:
-        
+            play()
             top.mainloop()
+            
             return False
 
 if __name__ == "__main__":
