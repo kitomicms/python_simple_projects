@@ -13,7 +13,7 @@ def alarm():
     delta = timedelta(seconds=set_time)
 
     start_time = datetime.now()
-    end_time = start_time + delta * 3
+    end_time = start_time + delta * 60
 
     # maybe add some sound
     # display label
